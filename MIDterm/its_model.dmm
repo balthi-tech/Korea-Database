@@ -1,0 +1,2144 @@
+{
+	"tables": {
+		"82fb47ff-156e-4fba-aefe-9e44f705b5f2": {
+			"id": "82fb47ff-156e-4fba-aefe-9e44f705b5f2",
+			"visible": true,
+			"name": "fatl",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "c7fb73a9-6edb-456b-ad81-899a47d8b756",
+					"name": "id",
+					"datatype": "INTEGER",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": true
+					}
+				},
+				{
+					"id": "4623896a-075f-4c34-91a7-7654abcca7f2",
+					"name": "level",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "d4f9243f-fbbf-4824-beb4-38afc1c2fb9d",
+					"name": "qualification_date",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "fd6291c2-4c0d-42a3-b6fe-eeddf2de1b2f",
+					"name": "driver_id",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				}
+			],
+			"relations": [
+				"1c60c415-0894-4f93-86fd-ad9a9abe4465"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "9407a096-8586-46f1-bf82-efe850ba4f21",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "26415baf-2111-40bc-baaa-15dade9f207b",
+							"colid": "c7fb73a9-6edb-456b-ad81-899a47d8b756"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"f46501ad-8882-41b8-bbdc-5412ff58935f": {
+			"id": "f46501ad-8882-41b8-bbdc-5412ff58935f",
+			"visible": true,
+			"name": "stlv",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "9fc396a3-e748-4e7f-8d93-6b23225588a5",
+					"name": "id",
+					"datatype": "INTEGER",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": true
+					}
+				},
+				{
+					"id": "60879b5d-9660-465d-89b8-5216614bcecf",
+					"name": "level",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "217d5b17-74d2-4cf7-99bb-9e8e63c5df10",
+					"name": "qualification_date",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "52e2e8e5-225e-49a9-99cf-e60348e05fc6",
+					"name": "certifying",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "6eddd43b-0646-4787-97af-3fe9a4dc0899",
+					"name": "driver_id",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				}
+			],
+			"relations": [
+				"270a0e10-7906-47ea-bdf5-a6a4f2c57de1"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "27b6c3ce-c710-49a1-9315-45557ed55734",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "fa294d02-7cc3-461d-bb07-35b5864b6da8",
+							"colid": "9fc396a3-e748-4e7f-8d93-6b23225588a5"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"8e22d9bd-0b80-458b-92ef-519cbb1d86a0": {
+			"id": "8e22d9bd-0b80-458b-92ef-519cbb1d86a0",
+			"visible": true,
+			"name": "base_entity",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "289f6470-20dd-48c6-9eab-b34d332a5983",
+					"name": "id",
+					"datatype": "INTEGER",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": true
+					}
+				}
+			],
+			"relations": [
+				"2cff2b0e-06b2-47e3-8604-5a1188378ac2",
+				"9f9d7d56-6aa2-4652-9284-6a0787a29402",
+				"8704d9f6-d5c5-48cd-b266-a9ee4b1a0b72",
+				"8234fbce-02e9-45d6-b204-0e51d152de80"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "3747baba-4b6e-4d06-b42b-69421eaefeff",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "eca8c515-81ac-443b-aa1c-05eab5eb9f56",
+							"colid": "289f6470-20dd-48c6-9eab-b34d332a5983"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"7a470a83-13f6-4c36-abe7-fb56814ed48b": {
+			"id": "7a470a83-13f6-4c36-abe7-fb56814ed48b",
+			"visible": true,
+			"name": "language",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "264c7921-68ae-4540-a68f-220b86b68706",
+					"name": "iso_code",
+					"datatype": "TEXT",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "a4bb4d89-8ce8-45eb-b29a-eb3965dd1d3a",
+					"name": "name",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				}
+			],
+			"relations": [
+				"80ad8670-fd87-4938-ad5a-fc906ac4ae49"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "24ac0284-9544-4c70-96cd-b7c303a0ead4",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "00b2b443-7363-42f4-96b9-67d74b090107",
+							"colid": "264c7921-68ae-4540-a68f-220b86b68706"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"ce2b35e8-7bb2-445c-963d-171621bda8cf": {
+			"id": "ce2b35e8-7bb2-445c-963d-171621bda8cf",
+			"visible": true,
+			"name": "associated_lang",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "9929fba7-1d8b-422d-b79c-d0a133ec7bd2",
+					"name": "base_entity_id",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "base_entity"
+				},
+				{
+					"id": "712a0220-b68e-416d-834c-05199340634b",
+					"name": "language_iso_code",
+					"datatype": "TEXT",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "language"
+				}
+			],
+			"relations": [
+				"9f9d7d56-6aa2-4652-9284-6a0787a29402",
+				"80ad8670-fd87-4938-ad5a-fc906ac4ae49"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "9731a207-e315-4341-a064-6dfd333b769c",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"6f465c41-148a-435f-aa48-6fb24126103c": {
+			"id": "6f465c41-148a-435f-aa48-6fb24126103c",
+			"visible": true,
+			"name": "countries",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "2bc00ac6-1e50-43e9-8e88-88a7644257d1",
+					"name": "id",
+					"datatype": "INTEGER",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": true
+					}
+				},
+				{
+					"id": "248b6012-b303-4c23-a302-e781d0d28eec",
+					"name": "country_name",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "6563567e-adcc-4b1e-81e8-901e3ced2fe5",
+					"name": "base_entity_id",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "base_entity"
+				}
+			],
+			"relations": [
+				"8704d9f6-d5c5-48cd-b266-a9ee4b1a0b72",
+				"c40d92b2-b973-40c9-96a1-e0ab8814e3b5"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "e28a36a7-1658-4714-a241-b0a8b3bb5b33",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "9c73f6c7-3865-4a9c-a57f-d9dfcbc5519a",
+							"colid": "2bc00ac6-1e50-43e9-8e88-88a7644257d1"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"c5bac870-3e03-41d5-a98e-6c5668f8a274": {
+			"id": "c5bac870-3e03-41d5-a98e-6c5668f8a274",
+			"visible": true,
+			"name": "game_official",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "f8edfa8c-a1b8-460b-a78c-a6b1564769ca",
+					"name": "id",
+					"datatype": "INTEGER",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": true
+					}
+				},
+				{
+					"id": "888d5787-21b4-4c01-83e9-1989f13ec373",
+					"name": "first_name",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "b4d630a7-45f3-4af2-9e48-29da748b828b",
+					"name": "last_name",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "d4563ba2-4190-49ec-a698-c0be1a2555ae",
+					"name": "city_id",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "city"
+				},
+				{
+					"id": "a92ef7cd-09b5-4f26-8103-d4fc5bd78a01",
+					"name": "role_id",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "role"
+				},
+				{
+					"id": "322164d9-2115-4292-960e-bfedf8c9469b",
+					"name": "base_entity_id",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "base_entity"
+				}
+			],
+			"relations": [
+				"c2e3f6de-384a-4d74-83fe-225850cbba85",
+				"9a87b02b-319e-40b9-9484-7c2cde328a83",
+				"923b4dfb-757e-42e6-84e6-7a696ec9ae35",
+				"8234fbce-02e9-45d6-b204-0e51d152de80"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "b6bccced-9f4a-49a1-9b2a-3784ce0ef7bf",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "42be2c06-32f7-49eb-9ac1-ff9793d5e954",
+							"colid": "f8edfa8c-a1b8-460b-a78c-a6b1564769ca"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"1e9772e7-60d2-491f-b5c9-5c111b2b8c64": {
+			"id": "1e9772e7-60d2-491f-b5c9-5c111b2b8c64",
+			"visible": true,
+			"name": "role",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "28acf349-8caa-4593-b57d-62474c59f75f",
+					"name": "id",
+					"datatype": "INTEGER",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": true
+					}
+				},
+				{
+					"id": "a234d5ab-633f-42e8-a441-1ed610b6a61a",
+					"name": "name",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				}
+			],
+			"relations": [
+				"923b4dfb-757e-42e6-84e6-7a696ec9ae35"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "2952d61b-a6e7-458d-be39-2550714c7de3",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "422350b5-079c-486d-b6a0-1357e0befa1f",
+							"colid": "28acf349-8caa-4593-b57d-62474c59f75f"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"304807d4-0970-48a3-8052-751d7e75e8ff": {
+			"id": "304807d4-0970-48a3-8052-751d7e75e8ff",
+			"visible": true,
+			"name": "trip_info",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "782c8897-4410-4fa6-9d0b-8edd1de43105",
+					"name": "id",
+					"datatype": "INTEGER",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": true
+					}
+				},
+				{
+					"id": "a285c524-ccb0-448e-8142-61ef250e2229",
+					"name": "adress",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "8dcfaa8f-2db1-4c9f-8ca6-751f111bae73",
+					"name": "location_type",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "d16a3e09-d0e3-491b-b485-a1b4f0e19c02",
+					"name": "date_time",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "688794b1-670d-4027-a000-3585c989cf1f",
+					"name": "odometer",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				}
+			],
+			"relations": [
+				"7f9e0309-825f-4157-80c1-44cae9aaede8",
+				"d99d72fb-fd4a-4c20-89ba-9c2460ad6edc"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "3b874fa8-1069-4bea-b75f-45aa067602bd",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "9aef298e-5660-4ccf-a369-b8e3bf79aaee",
+							"colid": "782c8897-4410-4fa6-9d0b-8edd1de43105"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"28faf862-bd46-4de8-839b-550fcfc7477a": {
+			"id": "28faf862-bd46-4de8-839b-550fcfc7477a",
+			"visible": true,
+			"name": "city",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "a33a43f2-ff0d-48d7-87b1-14eb01aa30b3",
+					"name": "id",
+					"datatype": "INTEGER",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": true
+					}
+				},
+				{
+					"id": "30f5a299-d6ea-4611-a22b-aea188bca664",
+					"name": "name",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "7d654445-f4d7-4d08-b68d-34fae8839cef",
+					"name": "country_id",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "countries"
+				}
+			],
+			"relations": [
+				"c2e3f6de-384a-4d74-83fe-225850cbba85",
+				"c40d92b2-b973-40c9-96a1-e0ab8814e3b5"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "82a39d0e-ecbe-45b7-8283-f373ebbc5835",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "3d6303ee-a123-4c5a-af0a-ae82e904507b",
+							"colid": "a33a43f2-ff0d-48d7-87b1-14eb01aa30b3"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"e96c9f7b-eae4-487c-9958-ec08094bd198": {
+			"id": "e96c9f7b-eae4-487c-9958-ec08094bd198",
+			"visible": true,
+			"name": "vehicle",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "009e0cad-c90c-4e41-a6f0-002039d2accc",
+					"name": "id",
+					"datatype": "TEXT",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "a524c134-587a-4f2b-bab8-c12c4223e9e7",
+					"name": "registration_id",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "0c884da5-fc18-4718-854a-a076657adc5d",
+					"name": "manufacter",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "20caf5f3-64b0-4575-8afb-d715a9ea7b4c",
+					"name": "model",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "263cbbb0-8b58-4d99-860a-d4204cf526a5",
+					"name": "color",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "dcfb3950-5d75-49b1-9c93-8dfa0d1b712b",
+					"name": "curent_odometer",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "0853424c-7f37-412e-8e03-0aa1a5000e0b",
+					"name": "passenger_capacity",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "d2c904c5-d503-4703-ab21-1360787c1683",
+					"name": "is_available",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "2ee7e046-db67-456e-95b4-ec92c017bcfd",
+					"name": "maintenance_id",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "maintenance"
+				}
+			],
+			"relations": [
+				"5c11166e-c9ca-459e-9e23-bd1a584efb5c",
+				"36d33735-0ebe-4496-bb73-d4cb3dc19471"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "c1d6c9f3-21f9-488d-809b-c40d1a132fc7",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "1ff0458c-6206-4e4c-937f-e9affab36d8d",
+							"colid": "009e0cad-c90c-4e41-a6f0-002039d2accc"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"b330ed4b-f746-46fd-a595-1cca9baa9ed7": {
+			"id": "b330ed4b-f746-46fd-a595-1cca9baa9ed7",
+			"visible": true,
+			"name": "maintenance",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "46641164-2965-4865-afd2-c1a9fbbbacdc",
+					"name": "id",
+					"datatype": "INTEGER",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": true
+					}
+				},
+				{
+					"id": "0c70c0f3-af5c-42f2-9d5e-99296baab193",
+					"name": "action_type",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "5d775ae1-13cc-44ad-aa0a-3253997db201",
+					"name": "odometer",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "0698c269-5251-47b1-a7c8-00edc1843cb9",
+					"name": "final_cost",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "b8d26a24-c777-4a22-91ef-6be56b25dc3d",
+					"name": "action_description",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "2736e750-94fa-43c7-8bb8-77b8fbd9c73b",
+					"name": "date",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				}
+			],
+			"relations": [
+				"5c11166e-c9ca-459e-9e23-bd1a584efb5c"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "18a3eb27-1433-49e4-a08a-935cd835ae3c",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "4d6e73c9-9d3d-44ca-b053-8d10b7f04141",
+							"colid": "46641164-2965-4865-afd2-c1a9fbbbacdc"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"0801f657-87a5-4e00-891c-3141597dd967": {
+			"id": "0801f657-87a5-4e00-891c-3141597dd967",
+			"visible": true,
+			"name": "booking",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "7bacb3d1-bb5f-4753-87fd-9f5bf8685ea0",
+					"name": "booking_ref",
+					"datatype": "TEXT",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "d83dae12-f06c-4ec8-9ef6-76e504685cc0",
+					"name": "vehicle_id",
+					"datatype": "TEXT",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "vehicle"
+				},
+				{
+					"id": "85062b76-b964-4f59-aa9b-6b193478dfc8",
+					"name": "driver_id",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "driver"
+				},
+				{
+					"id": "53a2e166-1e40-41ba-9e21-5f49a04c957f",
+					"name": "trip_info_start",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "trip_info"
+				},
+				{
+					"id": "e4e4c27f-2416-45e3-8f21-e266d52f9c05",
+					"name": "trip_info_end",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "trip_info"
+				},
+				{
+					"id": "3a3cd304-4a07-4dbd-85d1-06bc8703afb7",
+					"name": "game_official_id",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "game_official"
+				}
+			],
+			"relations": [
+				"36d33735-0ebe-4496-bb73-d4cb3dc19471",
+				"12c73b31-a580-4a66-912d-3e417d9bcbc3",
+				"7f9e0309-825f-4157-80c1-44cae9aaede8",
+				"d99d72fb-fd4a-4c20-89ba-9c2460ad6edc",
+				"9a87b02b-319e-40b9-9484-7c2cde328a83"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "36f99bc0-00aa-49b7-8a46-c7c243716606",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "e2501a6f-775b-408c-b055-f003ff06e9e5",
+							"colid": "7bacb3d1-bb5f-4753-87fd-9f5bf8685ea0"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"8b25c69d-d846-48a5-95b2-08cb7025e1a8": {
+			"id": "8b25c69d-d846-48a5-95b2-08cb7025e1a8",
+			"visible": true,
+			"name": "driver",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "b03dfb9b-4c43-4f31-be90-0dd70c0e695d",
+					"name": "id",
+					"datatype": "INTEGER",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": true
+					}
+				},
+				{
+					"id": "f0c5640a-bc25-42eb-b045-b5f1e453c0ef",
+					"name": "first_name",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "2ce1f98c-f0e3-4f95-b45a-7893498e7c2a",
+					"name": "last_name",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "3fede208-28a2-4484-8db1-61680b4778b0",
+					"name": "license_numer",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "efb5e50f-f8be-4343-9373-36642dc15d1c",
+					"name": "clerence_level",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				},
+				{
+					"id": "33042f14-da83-428a-a211-ec5a3675e898",
+					"name": "stlv_id",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "stlv"
+				},
+				{
+					"id": "01f12fd7-9946-4b9a-89bd-8497a8df4b63",
+					"name": "fatl_id",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "fatl"
+				},
+				{
+					"id": "df44b7bd-0b52-4ae5-9a37-6b751a5e0e14",
+					"name": "base_entity_id",
+					"datatype": "INTEGER",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"fk": true,
+					"ref": "base_entity"
+				}
+			],
+			"relations": [
+				"270a0e10-7906-47ea-bdf5-a6a4f2c57de1",
+				"1c60c415-0894-4f93-86fd-ad9a9abe4465",
+				"2cff2b0e-06b2-47e3-8604-5a1188378ac2",
+				"12c73b31-a580-4a66-912d-3e417d9bcbc3"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "d3eb3dc1-026a-4bbb-acd9-a3307449f878",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "2382af62-ef0b-429b-8f48-9f9f6e016840",
+							"colid": "b03dfb9b-4c43-4f31-be90-0dd70c0e695d"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		}
+	},
+	"relations": {
+		"5c11166e-c9ca-459e-9e23-bd1a584efb5c": {
+			"id": "5c11166e-c9ca-459e-9e23-bd1a584efb5c",
+			"visible": true,
+			"name": "maintenance_vehicle",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "18a3eb27-1433-49e4-a08a-935cd835ae3c",
+			"parent": "b330ed4b-f746-46fd-a595-1cca9baa9ed7",
+			"child": "e96c9f7b-eae4-487c-9958-ec08094bd198",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "1b40737b-cbf5-43fa-a819-a106eaa7e55c",
+					"parentcol": "46641164-2965-4865-afd2-c1a9fbbbacdc",
+					"childcol": "2ee7e046-db67-456e-95b4-ec92c017bcfd"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"36d33735-0ebe-4496-bb73-d4cb3dc19471": {
+			"id": "36d33735-0ebe-4496-bb73-d4cb3dc19471",
+			"visible": true,
+			"name": "vehicle_booking",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "c1d6c9f3-21f9-488d-809b-c40d1a132fc7",
+			"parent": "e96c9f7b-eae4-487c-9958-ec08094bd198",
+			"child": "0801f657-87a5-4e00-891c-3141597dd967",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "aa169de6-973c-495e-be0e-3dcebb27b43a",
+					"parentcol": "009e0cad-c90c-4e41-a6f0-002039d2accc",
+					"childcol": "d83dae12-f06c-4ec8-9ef6-76e504685cc0"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"270a0e10-7906-47ea-bdf5-a6a4f2c57de1": {
+			"id": "270a0e10-7906-47ea-bdf5-a6a4f2c57de1",
+			"visible": true,
+			"name": "stlv_driver",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "27b6c3ce-c710-49a1-9315-45557ed55734",
+			"parent": "f46501ad-8882-41b8-bbdc-5412ff58935f",
+			"child": "8b25c69d-d846-48a5-95b2-08cb7025e1a8",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "bb79a6e4-032b-4966-b423-0f913b146148",
+					"parentcol": "9fc396a3-e748-4e7f-8d93-6b23225588a5",
+					"childcol": "33042f14-da83-428a-a211-ec5a3675e898"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"1c60c415-0894-4f93-86fd-ad9a9abe4465": {
+			"id": "1c60c415-0894-4f93-86fd-ad9a9abe4465",
+			"visible": true,
+			"name": "fatl_driver",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "9407a096-8586-46f1-bf82-efe850ba4f21",
+			"parent": "82fb47ff-156e-4fba-aefe-9e44f705b5f2",
+			"child": "8b25c69d-d846-48a5-95b2-08cb7025e1a8",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "711ad33c-d317-42b5-9ddf-8cf07d2cbf9b",
+					"parentcol": "c7fb73a9-6edb-456b-ad81-899a47d8b756",
+					"childcol": "01f12fd7-9946-4b9a-89bd-8497a8df4b63"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"2cff2b0e-06b2-47e3-8604-5a1188378ac2": {
+			"id": "2cff2b0e-06b2-47e3-8604-5a1188378ac2",
+			"visible": true,
+			"name": "base_entity_driver",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "3747baba-4b6e-4d06-b42b-69421eaefeff",
+			"parent": "8e22d9bd-0b80-458b-92ef-519cbb1d86a0",
+			"child": "8b25c69d-d846-48a5-95b2-08cb7025e1a8",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "ba24c82c-00e5-4db7-8627-276b337e3d44",
+					"parentcol": "289f6470-20dd-48c6-9eab-b34d332a5983",
+					"childcol": "df44b7bd-0b52-4ae5-9a37-6b751a5e0e14"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"12c73b31-a580-4a66-912d-3e417d9bcbc3": {
+			"id": "12c73b31-a580-4a66-912d-3e417d9bcbc3",
+			"visible": true,
+			"name": "driver_booking",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "d3eb3dc1-026a-4bbb-acd9-a3307449f878",
+			"parent": "8b25c69d-d846-48a5-95b2-08cb7025e1a8",
+			"child": "0801f657-87a5-4e00-891c-3141597dd967",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "fea82e28-9377-4fff-9e3c-72da4a7c6116",
+					"parentcol": "b03dfb9b-4c43-4f31-be90-0dd70c0e695d",
+					"childcol": "85062b76-b964-4f59-aa9b-6b193478dfc8"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"9f9d7d56-6aa2-4652-9284-6a0787a29402": {
+			"id": "9f9d7d56-6aa2-4652-9284-6a0787a29402",
+			"visible": true,
+			"name": "base_entity_associated_lang",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "3747baba-4b6e-4d06-b42b-69421eaefeff",
+			"parent": "8e22d9bd-0b80-458b-92ef-519cbb1d86a0",
+			"child": "ce2b35e8-7bb2-445c-963d-171621bda8cf",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "1c801b7e-fce6-439b-8016-a2b68b86c393",
+					"parentcol": "289f6470-20dd-48c6-9eab-b34d332a5983",
+					"childcol": "9929fba7-1d8b-422d-b79c-d0a133ec7bd2"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"80ad8670-fd87-4938-ad5a-fc906ac4ae49": {
+			"id": "80ad8670-fd87-4938-ad5a-fc906ac4ae49",
+			"visible": true,
+			"name": "language_associated_lang",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "24ac0284-9544-4c70-96cd-b7c303a0ead4",
+			"parent": "7a470a83-13f6-4c36-abe7-fb56814ed48b",
+			"child": "ce2b35e8-7bb2-445c-963d-171621bda8cf",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "15efc920-bc0d-4d25-8380-03e414514750",
+					"parentcol": "264c7921-68ae-4540-a68f-220b86b68706",
+					"childcol": "712a0220-b68e-416d-834c-05199340634b"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"8704d9f6-d5c5-48cd-b266-a9ee4b1a0b72": {
+			"id": "8704d9f6-d5c5-48cd-b266-a9ee4b1a0b72",
+			"visible": true,
+			"name": "base_entity_countries",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "3747baba-4b6e-4d06-b42b-69421eaefeff",
+			"parent": "8e22d9bd-0b80-458b-92ef-519cbb1d86a0",
+			"child": "6f465c41-148a-435f-aa48-6fb24126103c",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "4f3d4dc5-e2da-45a4-a8eb-5e4f2c162671",
+					"parentcol": "289f6470-20dd-48c6-9eab-b34d332a5983",
+					"childcol": "6563567e-adcc-4b1e-81e8-901e3ced2fe5"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"c2e3f6de-384a-4d74-83fe-225850cbba85": {
+			"id": "c2e3f6de-384a-4d74-83fe-225850cbba85",
+			"visible": true,
+			"name": "city_game_official",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "82a39d0e-ecbe-45b7-8283-f373ebbc5835",
+			"parent": "28faf862-bd46-4de8-839b-550fcfc7477a",
+			"child": "c5bac870-3e03-41d5-a98e-6c5668f8a274",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "fa61688b-7166-4933-a430-e367b645a922",
+					"parentcol": "a33a43f2-ff0d-48d7-87b1-14eb01aa30b3",
+					"childcol": "d4563ba2-4190-49ec-a698-c0be1a2555ae"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"c40d92b2-b973-40c9-96a1-e0ab8814e3b5": {
+			"id": "c40d92b2-b973-40c9-96a1-e0ab8814e3b5",
+			"visible": true,
+			"name": "countries_city",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "e28a36a7-1658-4714-a241-b0a8b3bb5b33",
+			"parent": "6f465c41-148a-435f-aa48-6fb24126103c",
+			"child": "28faf862-bd46-4de8-839b-550fcfc7477a",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "bcc2f965-f074-40b5-98cc-03e0073fa0a0",
+					"parentcol": "2bc00ac6-1e50-43e9-8e88-88a7644257d1",
+					"childcol": "7d654445-f4d7-4d08-b68d-34fae8839cef"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"7f9e0309-825f-4157-80c1-44cae9aaede8": {
+			"id": "7f9e0309-825f-4157-80c1-44cae9aaede8",
+			"visible": true,
+			"name": "trip_info_booking",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "3b874fa8-1069-4bea-b75f-45aa067602bd",
+			"parent": "304807d4-0970-48a3-8052-751d7e75e8ff",
+			"child": "0801f657-87a5-4e00-891c-3141597dd967",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "8b33132c-4f72-4edd-97cb-733244a6b067",
+					"parentcol": "782c8897-4410-4fa6-9d0b-8edd1de43105",
+					"childcol": "53a2e166-1e40-41ba-9e21-5f49a04c957f"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"d99d72fb-fd4a-4c20-89ba-9c2460ad6edc": {
+			"id": "d99d72fb-fd4a-4c20-89ba-9c2460ad6edc",
+			"visible": true,
+			"name": "trip_info_booking",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "3b874fa8-1069-4bea-b75f-45aa067602bd",
+			"parent": "304807d4-0970-48a3-8052-751d7e75e8ff",
+			"child": "0801f657-87a5-4e00-891c-3141597dd967",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "44dcdde2-1f9f-4b0c-87da-feebeb12f748",
+					"parentcol": "782c8897-4410-4fa6-9d0b-8edd1de43105",
+					"childcol": "e4e4c27f-2416-45e3-8f21-e266d52f9c05"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"9a87b02b-319e-40b9-9484-7c2cde328a83": {
+			"id": "9a87b02b-319e-40b9-9484-7c2cde328a83",
+			"visible": true,
+			"name": "game_official_booking",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "b6bccced-9f4a-49a1-9b2a-3784ce0ef7bf",
+			"parent": "c5bac870-3e03-41d5-a98e-6c5668f8a274",
+			"child": "0801f657-87a5-4e00-891c-3141597dd967",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "e3bc9576-d84c-4a7c-9d1b-f0fb44d66363",
+					"parentcol": "f8edfa8c-a1b8-460b-a78c-a6b1564769ca",
+					"childcol": "3a3cd304-4a07-4dbd-85d1-06bc8703afb7"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"923b4dfb-757e-42e6-84e6-7a696ec9ae35": {
+			"id": "923b4dfb-757e-42e6-84e6-7a696ec9ae35",
+			"visible": true,
+			"name": "role_game_official",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "2952d61b-a6e7-458d-be39-2550714c7de3",
+			"parent": "1e9772e7-60d2-491f-b5c9-5c111b2b8c64",
+			"child": "c5bac870-3e03-41d5-a98e-6c5668f8a274",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "eab371fb-fad2-472a-9e66-6559a0f6e25f",
+					"parentcol": "28acf349-8caa-4593-b57d-62474c59f75f",
+					"childcol": "a92ef7cd-09b5-4f26-8103-d4fc5bd78a01"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"8234fbce-02e9-45d6-b204-0e51d152de80": {
+			"id": "8234fbce-02e9-45d6-b204-0e51d152de80",
+			"visible": true,
+			"name": "base_entity_game_official",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "3747baba-4b6e-4d06-b42b-69421eaefeff",
+			"parent": "8e22d9bd-0b80-458b-92ef-519cbb1d86a0",
+			"child": "c5bac870-3e03-41d5-a98e-6c5668f8a274",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "2aa4a050-f7ba-4e13-be50-13afccbc622e",
+					"parentcol": "289f6470-20dd-48c6-9eab-b34d332a5983",
+					"childcol": "322164d9-2115-4292-960e-bfedf8c9469b"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		}
+	},
+	"notes": {},
+	"lines": {},
+	"model": {
+		"name": "ITS model",
+		"id": "5d5ca1bd-3e05-4407-9aa9-7c885678c877",
+		"activeDiagram": "8e16f5c5-6540-4609-a410-5c3d391f2415",
+		"desc": "",
+		"path": "",
+		"type": "SQLITE",
+		"version": 1,
+		"parentTableInFkCols": true,
+		"caseConvention": "under",
+		"replaceSpace": "_",
+		"color": "transparent",
+		"sideSelections": true,
+		"isDirty": true,
+		"storedin": {
+			"major": 5,
+			"minor": 0,
+			"extra": 0
+		},
+		"embeddedInParentsIsDisplayed": true,
+		"schemaContainerIsDisplayed": false,
+		"cardinalityIsDisplayed": false,
+		"estimatedSizeIsDisplayed": false,
+		"writeFileParam": false,
+		"currentDisplayMode": "metadata",
+		"def_collation": "",
+		"def_coltopk": true,
+		"sqlSettings": {
+			"wrapLines": true,
+			"wrapOffset": 80,
+			"indent": true,
+			"indentationString": "spaces",
+			"indentationSize": 2,
+			"limitItemsOnLine": true,
+			"maxListItemsOnLine": 3,
+			"statementDelimiter": ";",
+			"routineDelimiter": ";",
+			"keywordCase": "upper",
+			"identiferCase": "original",
+			"includeSchema": "always",
+			"quotation": "if_needed"
+		},
+		"lastSaved": "10/22/2022"
+	},
+	"otherObjects": {},
+	"diagrams": {
+		"8e16f5c5-6540-4609-a410-5c3d391f2415": {
+			"name": "Main Diagram",
+			"description": "",
+			"id": "8e16f5c5-6540-4609-a410-5c3d391f2415",
+			"keysgraphics": true,
+			"linegraphics": "detailed",
+			"zoom": 0.5,
+			"background": "transparent",
+			"lineColor": "transparent",
+			"isOpen": true,
+			"main": true,
+			"diagramItems": {
+				"82fb47ff-156e-4fba-aefe-9e44f705b5f2": {
+					"referencedItemId": "82fb47ff-156e-4fba-aefe-9e44f705b5f2",
+					"x": 45,
+					"y": 687,
+					"gHeight": 99,
+					"gWidth": 229,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"f46501ad-8882-41b8-bbdc-5412ff58935f": {
+					"referencedItemId": "f46501ad-8882-41b8-bbdc-5412ff58935f",
+					"x": 45,
+					"y": 877,
+					"gHeight": 117,
+					"gWidth": 229,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"8e22d9bd-0b80-458b-92ef-519cbb1d86a0": {
+					"referencedItemId": "8e22d9bd-0b80-458b-92ef-519cbb1d86a0",
+					"x": 684,
+					"y": 371,
+					"gHeight": 45,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"7a470a83-13f6-4c36-abe7-fb56814ed48b": {
+					"referencedItemId": "7a470a83-13f6-4c36-abe7-fb56814ed48b",
+					"x": 505,
+					"y": 64,
+					"gHeight": 63,
+					"gWidth": 178,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"ce2b35e8-7bb2-445c-963d-171621bda8cf": {
+					"referencedItemId": "ce2b35e8-7bb2-445c-963d-171621bda8cf",
+					"x": 506,
+					"y": 198,
+					"gHeight": 63,
+					"gWidth": 234,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"6f465c41-148a-435f-aa48-6fb24126103c": {
+					"referencedItemId": "6f465c41-148a-435f-aa48-6fb24126103c",
+					"x": 890,
+					"y": 285,
+					"gHeight": 81,
+					"gWidth": 229,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"c5bac870-3e03-41d5-a98e-6c5668f8a274": {
+					"referencedItemId": "c5bac870-3e03-41d5-a98e-6c5668f8a274",
+					"x": 975,
+					"y": 725,
+					"gHeight": 135,
+					"gWidth": 229,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"1e9772e7-60d2-491f-b5c9-5c111b2b8c64": {
+					"referencedItemId": "1e9772e7-60d2-491f-b5c9-5c111b2b8c64",
+					"x": 1034,
+					"y": 1387,
+					"gHeight": 63,
+					"gWidth": 161,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"304807d4-0970-48a3-8052-751d7e75e8ff": {
+					"referencedItemId": "304807d4-0970-48a3-8052-751d7e75e8ff",
+					"x": 563,
+					"y": 1412,
+					"gHeight": 117,
+					"gWidth": 205,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"28faf862-bd46-4de8-839b-550fcfc7477a": {
+					"referencedItemId": "28faf862-bd46-4de8-839b-550fcfc7477a",
+					"x": 1240,
+					"y": 626,
+					"gHeight": 81,
+					"gWidth": 208,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"e96c9f7b-eae4-487c-9958-ec08094bd198": {
+					"referencedItemId": "e96c9f7b-eae4-487c-9958-ec08094bd198",
+					"x": 45,
+					"y": 1100,
+					"gHeight": 189,
+					"gWidth": 258,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"b330ed4b-f746-46fd-a595-1cca9baa9ed7": {
+					"referencedItemId": "b330ed4b-f746-46fd-a595-1cca9baa9ed7",
+					"x": 45,
+					"y": 1409,
+					"gHeight": 135,
+					"gWidth": 232,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"0801f657-87a5-4e00-891c-3141597dd967": {
+					"referencedItemId": "0801f657-87a5-4e00-891c-3141597dd967",
+					"x": 529,
+					"y": 907,
+					"gHeight": 135,
+					"gWidth": 239,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"8b25c69d-d846-48a5-95b2-08cb7025e1a8": {
+					"referencedItemId": "8b25c69d-d846-48a5-95b2-08cb7025e1a8",
+					"x": 349,
+					"y": 495,
+					"gHeight": 171,
+					"gWidth": 229,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				}
+			},
+			"scroll": {
+				"x": 0,
+				"y": 0
+			},
+			"type": "erd"
+		}
+	},
+	"order": [
+		"82fb47ff-156e-4fba-aefe-9e44f705b5f2",
+		"f46501ad-8882-41b8-bbdc-5412ff58935f",
+		"8e22d9bd-0b80-458b-92ef-519cbb1d86a0",
+		"7a470a83-13f6-4c36-abe7-fb56814ed48b",
+		"ce2b35e8-7bb2-445c-963d-171621bda8cf",
+		"6f465c41-148a-435f-aa48-6fb24126103c",
+		"c5bac870-3e03-41d5-a98e-6c5668f8a274",
+		"1e9772e7-60d2-491f-b5c9-5c111b2b8c64",
+		"304807d4-0970-48a3-8052-751d7e75e8ff",
+		"28faf862-bd46-4de8-839b-550fcfc7477a",
+		"e96c9f7b-eae4-487c-9958-ec08094bd198",
+		"b330ed4b-f746-46fd-a595-1cca9baa9ed7",
+		"0801f657-87a5-4e00-891c-3141597dd967",
+		"8b25c69d-d846-48a5-95b2-08cb7025e1a8",
+		"5c11166e-c9ca-459e-9e23-bd1a584efb5c",
+		"36d33735-0ebe-4496-bb73-d4cb3dc19471",
+		"270a0e10-7906-47ea-bdf5-a6a4f2c57de1",
+		"1c60c415-0894-4f93-86fd-ad9a9abe4465",
+		"2cff2b0e-06b2-47e3-8604-5a1188378ac2",
+		"12c73b31-a580-4a66-912d-3e417d9bcbc3",
+		"9f9d7d56-6aa2-4652-9284-6a0787a29402",
+		"80ad8670-fd87-4938-ad5a-fc906ac4ae49",
+		"8704d9f6-d5c5-48cd-b266-a9ee4b1a0b72",
+		"c2e3f6de-384a-4d74-83fe-225850cbba85",
+		"c40d92b2-b973-40c9-96a1-e0ab8814e3b5",
+		"7f9e0309-825f-4157-80c1-44cae9aaede8",
+		"d99d72fb-fd4a-4c20-89ba-9c2460ad6edc",
+		"9a87b02b-319e-40b9-9484-7c2cde328a83",
+		"923b4dfb-757e-42e6-84e6-7a696ec9ae35",
+		"8234fbce-02e9-45d6-b204-0e51d152de80"
+	],
+	"collapsedTreeItems": []
+}
